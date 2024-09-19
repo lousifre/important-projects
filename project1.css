@@ -1,0 +1,395 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+nav h1{
+margin-top: 17px;
+margin-left: 200px;
+text-transform: uppercase;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+}
+nav ul{
+    margin-right: 200px;
+    text-decoration: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 60px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li a:hover{
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    transition: 0.5s;
+}
+.first{
+    height: 280px;
+    width: 100%;
+    background-color: rgb(59, 59, 212);
+}
+.first h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.first input[type="submit"]{
+    width: 100px;
+    height: 40px;
+    margin-left: 45%;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(59, 59, 212);
+    background-color: white;
+    border: none;
+    animation-name: button;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes button{
+    from{
+        margin-top: 0;
+    }
+    to{
+        margin-top: 10px;
+    }
+}
+.first input[type="submit"]:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+@keyframes logo{
+    0%{
+color: white;
+    }
+    100%{
+        color: gray;
+    }
+}
+.second{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second h1{
+    color: rgb(59, 59, 212);
+    margin: 20px;
+}
+.second p{
+    margin-top: 20px;
+}
+.thirth{
+    display: flex;
+    justify-content: space-around;
+}
+.one, .two, .three{
+    height: 130px;
+    width: 30%;
+    border: 2px solid gray;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.one h1{
+    margin-top: 20px;
+}
+.two h1{
+    margin-top: 20px;
+}
+.three h1{
+    margin-top: 20px;
+}
+.one, .two, .three, p{
+margin-top: 10px;
+}
+.forth{
+    height: 60px;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.forth p{
+    margin-top: 20px;
+}
+.fifth{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    height: 500px;
+}
+.un, .deux, .trois{
+    height: 520px;
+    width: 20%;
+    transition: 0.5s;
+}
+.un:hover{
+    margin-top: -20px;
+
+}
+.deux:hover{
+    margin-top: -20px;
+}
+.trois:hover{
+    margin-top: -20px;
+}
+.un{
+    background: url(https://images.pexels.com/photos/1546985/pexels-photo-1546985.jpeg);
+    background-size: 255px;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.un h1 {
+    margin-top: 350px;
+}
+.deux{
+    background: url(https://www.valgardena.it/fileadmin/files/_processed_/6/c/csm_Anreise_mit_dem_Bus_cc2043ab65.jpg);
+    background-size: 255px;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.deux h1 {
+    margin-top: 350px;
+}
+.trois{
+    background: url(https://images.pexels.com/photos/5557518/pexels-photo-5557518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: 255px;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.trois h1 {
+    margin-top: 350px;
+}
+.sixth{
+    height: 400px;
+    
+}
+.top {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 80px;
+}
+.top h1{
+    color: rgb(59, 59, 212);
+}
+.bottom {
+    height: 800px;
+    background: url(https://images.pexels.com/photos/1878359/pexels-photo-1878359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin-left: 10%;
+}
+.seven{
+    margin-top: 440px;
+    height: 400px;
+    
+}
+.up{
+    height: 50px;
+    background-color: white;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
+#para{
+    margin-top: 50px;
+    width: 600px;
+    margin-left: 25%;
+}
+.middle{
+    margin-top: 40px;
+    height: 180px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.wahed, .joj, .tlata{
+    height: 170px;
+    width: 250px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.down{
+    height: 50px;
+    background-color: white;
+}
+.down p{
+    width: 700px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 300px;
+}
+.lfo9{
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ltaht{
+    display: flex;
+    justify-content: space-around;
+}
+.lwl, .tani, .talt{
+    height: 150px;
+    width: 20%;
+    background-color: aliceblue;
+}
+.lwl i{
+    font-size: 50px;
+    color: rgb(59, 59, 212);
+}
+.lwl{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.lwl:hover{
+    margin-top: -20px;
+    transition: all 1s;
+}
+.tani i{
+    font-size: 50px;
+    color: rgb(59, 59, 212);
+}
+.tani{
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-transform: uppercase;
+margin-top: 40px;
+}
+.tani:hover{
+margin-top: -20px;
+transition: 1s;
+}
+.talt i{
+font-size: 50px;
+color: rgb(59, 59, 212);
+}
+.talt{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.talt:hover{
+    margin-top: -20px;
+    transition:  1s;
+}
+.nfo9{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 70px;
+    
+}
+.nfo9 h1{
+    color: rgb(59, 59, 212);
+}
+.ntaht{
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    height: 600px;
+    width: 70%;
+    background: url(https://images.pexels.com/photos/6091193/pexels-photo-6091193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.right{
+    height: 600px;
+    width: 30%;
+    
+}
+.rtop, .rmiddle, .rbottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 2px gray;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.h3{
+    margin-top: 5px;
+}
+.div{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: 50px;
+    background-color: aliceblue;
+}
+.last{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+.last p{
+    font-weight: bold;
+    text-align: center;
+}
+.lfirst, .lsecond, .lthirth{
+    height: 100px;
+    width: 25%;
+    border: solid 1px gray;
+}
+.h2{
+    float: right;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color: darkcyan;
+    height: 80px;
+    text-transform: uppercase;
+}
+#rights {
+    padding-top: 25px;
+    padding-left: 50px;
+    color: white;
+}
