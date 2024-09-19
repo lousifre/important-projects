@@ -1,0 +1,105 @@
+.top{
+    height: 500px;
+    width: 100%;
+    display: flex;
+
+}
+.left{
+    height: 500px;
+    width: 50%;
+    background-color: aquamarine;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/719/267/non_2x/smiling-young-man-avatar-in-flat-cartoon-style-cute-male-character-boy-portrait-isolated-on-white-background-for-social-media-web-chat-vector.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-color: white;
+}
+.right{
+    height: 500px;
+    width: 50%;
+    background-color: white;
+    text-align: center;
+
+}
+.right h1{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 30%;
+}
+.right p{
+    width: 400px;
+    margin-left: 110px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bottom{
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    }
+.item1{
+    height: 50%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(96, 44, 209);
+    border: solid 1px black;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+}
+.item1 h1{
+    margin-top: 120px
+}
+.item2{
+    height: 50%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: white;
+    border: 1px black solid ;
+}
+.part1{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+.part1 h3{
+    margin-top: 100px;
+}
+.part2{
+    height: 50%;
+    width: 100%;
+    background-color: transparent;
+}
+.part2 form{
+    display: inline;
+    margin-left: 10%;
+}
+input[type="text"]{
+    height: 40px;
+    width: 300px;
+    margin: 5px;
+}
+input[type="gmail"]{
+    height: 40px;
+    width: 300px;
+    margin: 5px;
+}
+input[type="submit"]{
+    height: 40px;
+    width: 200px;
+    margin: 5px;
+    background-color: rgb(96, 44, 209);
+    color: white;
+    font-weight: bold;
+}
+.part2 p{
+    text-align: center;
+}
